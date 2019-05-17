@@ -63,6 +63,7 @@
     }
   }
 
+  .content-contact,
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
@@ -104,6 +105,28 @@
       .btn {
         width: 100%;
       }
+    }
+  }
+
+  .content-contact {
+    background: @footer-bg;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px gray;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      form-item {
+        font-weight:bold;
+        font-size:14px;
+      }
+    }
+
+    .btn {
+      .custom-button(@button-bg, @main-bg);
     }
   }
 }

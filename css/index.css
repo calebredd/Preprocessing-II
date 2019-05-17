@@ -313,14 +313,17 @@ body {
     flex-direction: column-reverse;
   }
 }
+.home .content-contact,
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
+.home .content-contact img,
 .home .content-destination img {
   border-radius: 10px;
 }
 @media (max-width: 500px) {
+  .home .content-contact,
   .home .content-destination {
     width: 100%;
   }
@@ -357,4 +360,28 @@ body {
   .home .content-pick .btn {
     width: 100%;
   }
+}
+.home .content-contact {
+  background: #FFEBCD;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px gray;
+}
+.home .content-contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .content-contact form form-item {
+  font-weight: bold;
+  font-size: 14px;
+}
+.home .content-contact .btn {
+  border-radius: 10px;
+  background: #17a2b8;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
 }
